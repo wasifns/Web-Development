@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang = en>,
+<head>
+    <meta charset= UTF-8 name="viewport" content="width=device-width", initial-scale="1.0">
+    <title>website</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <h1>Project store</h1>
+    <div class="container">
+        <form action="./data.txt">
+            
+            <div class="form-group">
+                <label class="fName" for="Fname" style="margin-bottom: 100px;">First Name:</label>
+                <input type="text" class="formControl" placeholder="Enter your first name"><br>
+            </div>
+            
+            <div class="form-group">
+                <label class="lName" for="Lname">Last Name:</label>
+                <input type="text" class="formControl" placeholder="Enter your last name"><br>
+            </div>
+
+            <div class="form-group">
+                <lable class="Email" for="Email">Email</lable>
+                <input type="text" class="formControl" placeholder="Enter your Email"><br>
+            </div>
+
+            <div class="form-group">
+                <p id="quest">Which option suits you best</p>
+                <select name="role" reuired id="dropdown" class="formControl">
+                    <option value disabled selected>Select current role</option>
+                    <option value="Student">Student</option>
+                    <option value="job">job</option>
+                    <option value="Teacher">Teacher</option>
+                    <option value="Others">Other</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <p id="quest">What tecnologies are you familiar with?</p>
+                    <label for="">
+                        <input type="radio" name="tech" class="radio" value="HTML">
+                    HTML</label>
+                    
+                    <label for="">
+                        <input type="radio" name="tech" class="radio" value="css">
+                    CSS</label>
+
+                    <label for="">
+                        <input type="radio" name="tech" class="radio" value="js">
+                    Javascript</label>
+
+                    <label for="">
+                        <input type="radio" name="tech" class="radio" value="react">
+                    React</label>
+
+                    <label for="">
+                        <input type="radio" name="tech" class="radio" value="node">
+                        Node js</label>
+
+                    <label for="">
+                        <input type="radio" name="tech" class="radio" value="Sql">
+                    Sql</label>
+
+                    <label for=""> 
+                        <input type="radio" name="tech" class="radio" value="Api">
+                    Api</label> 
+            </div>   
+
+            <div class="form-group">
+                <p id="quest">How well do you think you are in Web development?</p>
+                    <label for="">
+                        <input type="checkbox" name="choice" class="checkbox" value="Very good">
+                    Very good</label>
+
+                    <label for="">
+                        <input type="checkbox" name="choice" class="checkbox" value="Very good">
+                    Good</label>
+
+                    <label for="">
+                        <input type="checkbox" name="choice" class="checkbox" value="Very good">
+                    bad</label>
+
+                    <label for="">
+                        <input type="checkbox" name="choice" class="checkbox" value="Very good">
+                    Very bad</label>
+            </div>
+
+            <div class="form-group">
+                <p id="quest">Write a short introduction of yourself?</p>
+                <textarea name="feedback" id="feedback" class="textarea" cols="30" rows="10" placeholder="Write here..."></textarea>
+            </div>
+            
+            <div class="form-group">
+                <input type="submit" id="submit" class="button"value="submit">
+            </div>
+            
+        </form>
+    </div>
+    
+        
+</body>
+        
+</html>
