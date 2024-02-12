@@ -38,5 +38,13 @@ body::before{
     padding:2pc;
     writing-mode: horizontal-tb;
 }
+.formControl{
+    display:block;
+    width: 100%;
+}
+
+.form-group{
+    display:block;
+}
 
 
